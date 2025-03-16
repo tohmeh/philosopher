@@ -18,7 +18,7 @@ This project solves the Dining Philosophers problem, a classic computer science 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/tohmeh/philosophers.git
+git clone https://github.com/username/philosophers.git
 ```
 2. Compile the program:
 
@@ -30,6 +30,22 @@ make
 ```bash
 ./philo [number_of_philosophers] [time_to_die] [time_to_eat] [time_to_sleep] [number_of_times_each_philosopher_must_eat(optional)]
 ```
+
+## Structure
+
+
+philosophers/
+├── src/
+│   ├── cleanup.c
+│   ├── init.c
+│   ├── main.c
+│   ├── monitor.c
+│   ├── mutex.c
+│   ├── philosophers_utils.c
+│   ├── philosophers.c
+│   ├── time.c
+│   └── utils.c
+└── include/philosophers.h
 
 
 ## Implementation Details
